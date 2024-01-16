@@ -8,7 +8,7 @@ import "./style.css";
 const data = [
   {
     label: "HOME",
-    to: "/",
+    to: "/myportfolio",
   },
   {
     label: "ABOUT ME",
@@ -42,7 +42,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar">
         <div className="navbar_container">
-          <Link to={"/"} className="navbar_container_logo">
+          <Link to={"/myportfolio"} className="navbar_container_logo">
             <VscAccount size={30} />
           </Link>
         </div>
